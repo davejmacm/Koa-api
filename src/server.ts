@@ -36,7 +36,7 @@ const server = app
     console.log(`server listening on port: ${PORT}`)
   })
   .on('error', (err) => {
-    console.log(err)
+    console.error(err)
   })
 
 export default server
